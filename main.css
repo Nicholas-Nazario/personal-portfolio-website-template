@@ -7,3 +7,6 @@ body{
 .card{
     padding: 0%;
 }
+.right-text{
+    text-align: right;
+}
