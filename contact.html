@@ -53,17 +53,37 @@
             </div>
         </nav>
     </div>
-    <div class="contact">
-        <div class="card" style="width: 100%;">
-            <h1 class="card-header">Contact Me!</h1>
+    <div class="card-deck" style="margin: 1%">
+        <div class="col-sm-3 card">
+            <h1 class="card-header">Contact Info</h1>
             <div class="card-body">
-                    <form method="POST" action="https://formspree.io/YOUREMAILHERE">
-                        <input style="margin: 1%" class="form-control col-xl-6" aria-describedby="emailHelp" type="email" name="email" placeholder="Your email">
-                        <textarea style="margin: 1%" class="form-control col-xl-10" name="message" placeholder="Your message"></textarea>
-                        <button style="margin: 1%" class="btn btn-outline-primary" type="submit">Send</button>
-                      </form>
+                <p>
+                    <h5>
+                        <strong>Mailing Info:</strong>
+                    </h5>
+                    <h5>Name</h5>
+                    <h5>Street Address</h5>
+                    <h5>City State, Zip Code</h5>
+                    <h5>
+                        <strong>Email:</strong>
+                    </h5>
+                    <h5>Your@Email.com</h5>
+                </p>
             </div>
         </div>
+        <div class="col-sm-9 card">
+            <h1 class="card-header">Email Me!</h1>
+            <div class="card-body">
+                <!--MAKE SURE YOU FILL OUT FORMSPREE LINK BELOW TO GET EMAILS-->
+                <form method="POST" action="https://formspree.io/YOUREMAIL@WEBSITE.COM">
+                    <!--Do Not Replace placeholder="Your Email" below with your actual email. This is an instructional placeholder for site goers-->
+                    <input style="margin: 1%" class="form-control col-xl-6" aria-describedby="emailHelp" type="email" name="email" placeholder="Your Email">
+                    <textarea style="margin: 1%" class="form-control col-xl-10" name="message" placeholder="Your message"></textarea>
+                    <button style="margin: 1%" class="btn btn-outline-primary" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
     </div>
 
     <script src="main.js"></script>
